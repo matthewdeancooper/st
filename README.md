@@ -1,2 +1,2 @@
 # ST
-My heavily modified version of st
+My heavily modified fork of st

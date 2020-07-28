@@ -86,8 +86,8 @@ static unsigned int tabspaces = 4;
 /* Terminal colors for alternate (light) palette */
 
 /* SOLARIZED */
-/* const char *colorname[] = { */
-const char *altcolorname[] = {
+const char *colorname[] = {
+/* const char *altcolorname[] = { */
                               /* solarized dark */
                               "#073642",  /*  0: black    */
                               "#dc322f",  /*  1: red      */
@@ -107,8 +107,8 @@ const char *altcolorname[] = {
                               "#fdf6e3",  /* 15: brwhite  */
 };
 
-/* const char *altcolorname[] = { */
-const char *colorname[] = {
+const char *altcolorname[] = {
+/* const char *colorname[] = { */
                            "#eee8d5",  /*  0: black    */
                            "#dc322f",  /*  1: red      */
                            "#859900",  /*  2: green    */

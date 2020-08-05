@@ -190,6 +190,7 @@ Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
 	{ XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
 	{ TERMMOD2,             XK_Up,     	zoom,           {.f = +1} },
+	{ TERMMOD,              XK_Up,     	zoom,           {.f = +4} },
 	{ TERMMOD2,             XK_Down,	zoom,           {.f = -1} },
 	{ TERMMOD2,             XK_Home,       	zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },

@@ -4,7 +4,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Source Code Pro:pixelsize=16:antialias=true:autohint=true";
+char font[] = "Source Code Pro:pixelsize=15:antialias=true:autohint=true";
 int borderpx = 0;
 
 /*
@@ -62,7 +62,7 @@ unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char termname[] = "st-256color";
+char termname[] = "xterm-256color";
 
 /*
  * spaces per tab
@@ -191,6 +191,7 @@ Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
 	{ TERMMOD2,             XK_Up,     	zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Up,     	zoom,           {.f = +4} },
+	{ TERMMOD,              XK_Down,     	zoom,           {.f = -4} },
 	{ TERMMOD2,             XK_Down,	zoom,           {.f = -1} },
 	{ TERMMOD2,             XK_Home,       	zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
